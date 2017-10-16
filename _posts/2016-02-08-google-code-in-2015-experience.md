@@ -3,6 +3,7 @@ layout: post
 title: Google Code In 2015 Experience
 date: 2016-02-08 22:29
 author: dpmittal
+comments: true
 tags: [achievement, gci, hobbies, IT, open-source, programming, technology]
 ---
 <a href="https://developers.google.com/open-source/gci/" target="_blank"><strong>Google Code In 2015</strong></a> is a coding contest for pre-university students aged 13-17 years which inspires them and introduces them to the concept of open-source. In this contest ,  various open-source organisations take part and publish tasks which are designed in such a way which is suitable for school going students . Well , this year 14 organisations/mentoring orgs participated and I chose to work/contribute to Metabrainz Foundation.

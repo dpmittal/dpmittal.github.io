@@ -5,6 +5,7 @@ layout: default
   <header class="post-header">
     <div class="post-meta">
       <time datetime="{{ page.date | date: "%-d %b %Y" }}" class="post-meta__date date">{{ page.date | date: "%-d %b %Y" }}</time>
+      <span class="post-meta__author"> By {{ page.author }} </span>
       {% if page.tags.size > 0 %}
       &#8226; <span class="post-meta__tags">on {% for tag in page.tags %}<a href="{{ site.baseurl }}/tags/#{{ tag }}">{{ tag }}</a> {% endfor %}</span>
       {% endif %}
@@ -15,6 +16,7 @@ layout: default
   <section class="post">
     {{ content }}
   </section>
-  {% if page.comments != false and site.disqus_shortname %}<section id="disqus_thread"></section><!-- /#disqus_thread -->{% endif %}
+    {% if page.comments != false and site.disqus_shortname %}<section id="disqus_thread"></section><!-- /#disqus_thread -->{% endif %}
+</section>
 </article>
 {% if page.comments != false %}{% include disqus.html %}{% endif %}

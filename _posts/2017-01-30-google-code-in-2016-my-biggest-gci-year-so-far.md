@@ -3,6 +3,7 @@ layout: post
 title: Google Code In 2016 - My biggest GCI year so far
 date: 2017-01-30 22:55
 author: dpmittal
+comments: true
 tags: [achievement, gci, open-source, programming]
 ---
 So This was the last time I was participating in GCI as next year I will be ineligible. So again this year I participated from MetaBrainz Foundation from which I was a finalist last year too.
