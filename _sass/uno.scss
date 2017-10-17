@@ -1306,7 +1306,7 @@ hr {
 .cover-disabled {
 	background: none; }
 
-.btn, .navigation__item a {
+.btn a {
 	padding: 10px 20px;
 	border: 1px solid #e25440;
 	border-radius: 20px;
@@ -1319,6 +1319,17 @@ hr {
 	.btn:hover, .navigation__item a:hover {
 		color: #b9301c;
 		border-color: #b9301c; }
+
+.navigation__item a {
+	padding: 10px 20px;
+	font-size: .9em;
+	font-weight: bold;
+	letter-spacing: 1px;
+	text-shadow: none;
+	color: #e25440;
+	-webkit-font-smoothing: antialiased; }
+	.btn:hover, .navigation__item a:hover {
+		color: #b9301c; }
 
 .btn-secondary {
 	border-color: #5ba4e5;
