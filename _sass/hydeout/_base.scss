@@ -101,3 +101,14 @@ button, input[type="submit"] {
     box-shadow: $default-box-shadow;
   }
 }
+
+footer {
+  font-size: 70%;
+
+  svg {
+    fill: rgba(255, 0, 0, 1) !important;
+    height:15px;
+    width: 15px;
+
+  }
+}
