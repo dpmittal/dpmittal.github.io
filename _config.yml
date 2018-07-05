@@ -1,9 +1,14 @@
-# Site settings
+# Dependencies
+markdown:         kramdown
+highlighter:      rouge
+
+# Setup
 title: Divya Prakash Mittal
-description: 'Programming, Quizzing, Science and Open-source'
+description: 'Developer who loves Open-source'
 url: 'dpmittal.me'
-# google_analytics: 'UA-XXXXXX-X'
 disqus_shortname: 'dpmittal'
+baseurl:          '/blog'
+
 
 author:
   name: 'Divya Prakash Mittal'
@@ -13,30 +18,15 @@ author:
   github_username:  dpmittal
   linkedin_username:  dpmittal
 
-defaults:
-  -
-    scope:
-      path: ''
-      type: 'posts'
-    values:
-        layout: 'post'
+paginate:         5
+# paginate_path:    '/blog/page:num'
+                    # Or '/blog/page:num' if you want to move your index pages
 
-# Build settings
-destination: _site
-paginate: 10
-permalink: /:year/:title/
-markdown: kramdown
-highlighter: rouge
+plugins:
+  - jekyll-feed
+  - jekyll-gist
+  - jekyll-paginate
 
-sass:
-    sass_dir: _sass
-    style: compressed
-
-kramdown:
-  # use Github Flavored Markdown
-  input: GFM
-  # do not replace newlines by <br>s
-  hard_wrap: false
-
-gems: ['jekyll-paginate']
-exclude: ['README.md', 'Gemfile', 'Gemfile.lock', 'screenshot.png']
+# Custom vars
+sidebar_home_link:  true
+# sidebar_blog_link:  '/blog'

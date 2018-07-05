@@ -1,16 +1,16 @@
 <!DOCTYPE html>
-<html>
+<html lang="en-us">
+
   {% include head.html %}
 
-  <body>
-    {% include header.html %}
+  <body class="{{ page.layout }}{% if page.url == '/' %} home{% endif %}">
 
-    <div class="content-wrapper">
-      <div class="content-wrapper__inner">
-        {{ content }}
-      </div>
-      {% include footer.html %}
-      <script id="dsq-count-scr" src="//dpmittal.disqus.com/count.js" async></script>
-    </div>
+    {% include sidebar.html %}
+
+    <main class="container">
+      {{ content }}
+    </main>
+
+    {% include custom-foot.html %}
   </body>
 </html>

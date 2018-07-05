@@ -1,8 +1,7 @@
 ---
 layout: page
 title: About Me
-permalink: /about/
-robots: noindex
+sidebar_link: true
 ---
 
 I'm Divya Prakash Mittal, a 18 year old teen pursuing Electronics and
