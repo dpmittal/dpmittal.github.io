@@ -13,13 +13,11 @@ baseurl:          ''
 author:
   name: 'Divya Prakash Mittal'
   email: divyaprakashmittal@gmail.com
-  twitter_username: imdpmittal
-  facebook_username: divya.prakashmittal
   github_username:  dpmittal
   linkedin_username:  dpmittal
 
 paginate:         5
-# paginate_path:    '/blog/page:num'
+paginate_path:    '/blog/page:num'
                     # Or '/blog/page:num' if you want to move your index pages
 
 plugins:
@@ -29,4 +27,4 @@ plugins:
 
 # Custom vars
 sidebar_home_link:  true
-# sidebar_blog_link:  '/blog'
+sidebar_blog_link:  '/blog'

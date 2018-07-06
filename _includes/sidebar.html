@@ -1,8 +1,8 @@
 <div id="sidebar">
   <header>
     <{% if page.layout == "index" %}h5{% else %}div{% endif %} class="site-title">
-      <a href="{{ site.baseurl }}/">
-        {% unless page.url == "/" %}
+      <a href="{{ site.baseurl }}/blog">
+        {% unless page.url == "/blog/" %}
           <span class="back-arrow icon">{% include svg/back-arrow.svg %}</span>
         {% endunless %}
         {{ site.title }}
