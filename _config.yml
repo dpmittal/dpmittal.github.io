@@ -6,7 +6,8 @@ highlighter:      rouge
 title: Divya Prakash Mittal
 description: 'Open-Source lover trying to build things'
 url: 'dpmittal.me'
-disqus_shortname: 'dpmittal'
+disqus:
+  shortname: 'dpmittal'
 baseurl:          ''
 
 
