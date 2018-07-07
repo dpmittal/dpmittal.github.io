@@ -4,6 +4,7 @@ title: Back from Hibernation
 date: 2017-10-19 00:30
 author: dpmittal
 comments: true
+category: random post
 tags: [college life, jekyll, github pages]
 ---
 

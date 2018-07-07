@@ -42,6 +42,7 @@ h2.post-title, h2.page-title {
   margin-top: -.5rem;
   margin-bottom: 1rem;
   color: $body-muted;
+  font-size: 75%;
 }
 
 .post-tags a {
@@ -89,4 +90,8 @@ h2.post-title, h2.page-title {
 
 button.disqus-load {
   margin-top: 1em;
+}
+
+.post-body{
+  font-size: 80%;
 }
