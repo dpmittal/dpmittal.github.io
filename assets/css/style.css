@@ -10,7 +10,7 @@ height: calc(100vh - 8em);
 padding: 4em;
 color: rgba(255,255,255,.75);
 font-family: 'Anonymous Pro', monospace;
-background-image: url('/images/earphones.png');
+background-image: url('images/earphones.png');
 background-size: cover;
 }
 
