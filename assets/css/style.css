@@ -10,13 +10,15 @@ height: calc(100vh - 8em);
 padding: 4em;
 color: rgba(255,255,255,.75);
 font-family: 'Anonymous Pro', monospace;
-background-image: url('images/earphones.png');
+/* background-image: url('images/earphones.png'); */
 background-size: cover;
 }
 
 a {
   text-decoration-color: inherit;
-  text-decoration: none;
+  text-decoration-skip-ink: none;
+  /* text-decoration: none; */
+  color: inherit;
 }
 
 .intro{
