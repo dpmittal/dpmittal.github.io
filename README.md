@@ -1,1 +1,1 @@
-This my blog cum potfolio based on the theme HydeOut on Jekyll 
+This is a simple portfolio website with basic HTML+JS
