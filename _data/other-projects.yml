@@ -14,8 +14,8 @@
     - thing: Python
     - thing: Tkinter
 
-- name: Malaria Detection using Convolutional Netural Networks
-  description: A Machine learning model which uses CNN and Data Augmentation techniques to detect Malaria infected Cells.
+- name: Malaria Detection using CNN
+  description: A Machine learning model which uses Convolutional Neural Networks and Data Augmentation techniques to detect Malaria infected Cells.
   used:
     - thing: Python
     - thing: Machine Learning
