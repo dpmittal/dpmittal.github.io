@@ -1,0 +1,40 @@
+# Site settings
+name: Divya Prakash Mittal
+title: Divya Prakash Mittal | Software Engineer
+description: Software Engineer who's into building web applications.
+url: https://dpmittal.github.io
+baseurl: ''
+email: divyaprakashmittal@gmail.com
+logo: img/emojis/technologist.png
+resume: resume.pdf
+social:
+  - email:
+      - url: mailto:divyaprakashmittal@gmail.com
+  - title: instagram
+    url: https://instagram.com/dpmittal
+  - title: github
+    url: https://github.com/dpmittal
+  - title: linkedin
+    url: https://www.linkedin.com/in/dpmittal
+
+# Build settings
+markdown: kramdown
+
+exclude:
+  - 'Gemfile'
+  - 'Gemfile.lock'
+  - '*.gemspec'
+  - 'README.md'
+  - 'node_modules'
+  - 'build'
+  - 'gulpfile.js'
+  - 'package.json'
+
+keep_files:
+  - 'CNAME'
+  - '.git'
+  - '.gitignore'
+
+plugins_dir:
+  - jekyll-minifier
+  - jekyll-sitemap

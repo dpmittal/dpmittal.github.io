@@ -1,0 +1,52 @@
+- name: Smart Learning System
+  description: A system developed to extract EEG signals to analyze a person’s attention while studying.
+  used:
+    - thing: Ruby
+    - thing: Rails
+    - thing: EEG Sensor
+    - thing: HTML/CSS
+    - thing: JavaScript
+
+- name: Python PIP Package Installer
+  url: https://github.com/kSinghParth/owasp-hack
+  description: A GUI app based on Tkinter that lets the user install specified packages via pip, easy-install, *.whl files on a the system.
+  used:
+    - thing: Python
+    - thing: Tkinter
+
+- name: Malaria Detection using Convolutional Netural Networks
+  description: A Machine learning model which uses CNN and Data Augmentation techniques to detect Malaria infected Cells.
+  used:
+    - thing: Python
+    - thing: Machine Learning
+    - thing: Scikit-Learn
+
+- name: Node Postal Service
+  url: https://github.com/shubhank-saxena/octahacks
+  description: A web app for Postal Service to help them transport the mails from one H.O. to another minimizing the cost of transportation.
+  used:
+    - thing: Python
+    - thing: Flask
+    - thing: SQLite
+    - thing: HTML/CSS
+    - thing: JavaScript
+
+- name: Capture the Flag (CTF)
+  url: https://github.com/rkwap/ctf-portal
+  description: A CTF website where players can solve crypto/computing puzzles and the leaderboard of scores is displayed at the end of the week.
+  used:
+    - thing: Python
+    - thing: Flask
+    - thing: MySQL
+    - thing: HTML/CSS
+    - thing: JavaScript
+
+- name: Intra Society Member Portal
+  url: https://github.com/creative-computing-society/CCS-Member-Portal
+  description:
+    A web app that helps to log MoM, schedule meetings and maintain the whole database of the society members of CCS.
+  used:
+    - thing: Python
+    - thing: Flask
+    - thing: SQLite
+    - thing: HTML/CSS

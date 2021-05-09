@@ -1,0 +1,29 @@
+languages:
+  - item: Python
+  - item: C/C++
+  - item: Java
+  - item: PHP
+
+frameworks:
+  - item: Django
+  - item: Flask
+  - item: Jekyll
+  - item: Spring-Boot
+
+tools:
+  - item: Bash
+  - item: Git & Github
+  - item: JIRA
+  - item: Jenkins
+
+frontend:
+  - item: HTML
+  - item: CSS
+  - item: JavaScript
+  - item: Bootstrap
+
+databases:
+  - item: MySQL
+  - item: Cassandra
+  - item: LiquiBase
+  - item: SQLite
