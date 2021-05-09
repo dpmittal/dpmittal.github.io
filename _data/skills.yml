@@ -1,20 +1,20 @@
 languages:
   - item: Python
-  - item: C/C++
   - item: Java
+  - item: C/C++
   - item: PHP
 
 frameworks:
-  - item: Django
-  - item: Flask
-  - item: Jekyll
   - item: Spring-Boot
+  - item: Flask
+  - item: Django
+  - item: Jekyll
 
 tools:
-  - item: Bash
-  - item: Git & Github
+  - item: Git
   - item: JIRA
   - item: Jenkins
+  - item: Linux
 
 frontend:
   - item: HTML
