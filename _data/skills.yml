@@ -1,8 +1,16 @@
 languages:
   - item: Python
+  - item: Bash
   - item: Java
   - item: C/C++
   - item: PHP
+
+cloud:
+  - item: Azure
+  - item: Kubernetes
+  - item: Helm
+  - item: Terraform
+  - item: Docker
 
 frameworks:
   - item: Spring-Boot
@@ -27,3 +35,4 @@ databases:
   - item: Cassandra
   - item: LiquiBase
   - item: SQLite
+  
